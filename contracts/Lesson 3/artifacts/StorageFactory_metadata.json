@@ -1,0 +1,412 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstFamilyName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondFamilyName",
+						"type": "string"
+					}
+				],
+				"name": "betterFamilyFavoriteNumbersSum",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstPersonFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstFamilyName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondPersonFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondFamilyName",
+						"type": "string"
+					}
+				],
+				"name": "compareFavoriteNumbersAnyFamily",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_familyName",
+						"type": "string"
+					}
+				],
+				"name": "createFamilySimpleStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createMySimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_familyName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondName",
+						"type": "string"
+					}
+				],
+				"name": "familyAddTwoFavoriteNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_familyName",
+						"type": "string"
+					}
+				],
+				"name": "familyFavoriteNumberSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_familyName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_personName",
+						"type": "string"
+					}
+				],
+				"name": "familyGetFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "familySimpleStorage",
+				"outputs": [
+					{
+						"internalType": "contract MySimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_familyName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_personName",
+						"type": "string"
+					}
+				],
+				"name": "familyStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfMySimpleStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract MySimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_mySimpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_secondName",
+						"type": "string"
+					}
+				],
+				"name": "msfAddTwoFavoriteNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_mySimpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "msfGetFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_mySimpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newFavoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newPersonName",
+						"type": "string"
+					}
+				],
+				"name": "msfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lesson 3/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lesson 3/MySimpleStorage.sol": {
+			"keccak256": "0x8dbbd452583f93b79fba8d29e1f05ca45ca83175200c45e4977f629f1e2e5c79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54030cf46120ed6c7e4eef8708be130e11a74ad7ffa7612c553c1a29bd5ac900",
+				"dweb:/ipfs/Qmdn7EpkWZVAcLnCQitZuZw8xG9zYD31efe7ryehGqm2vp"
+			]
+		},
+		"contracts/Lesson 3/SimpleStorage.sol": {
+			"keccak256": "0x884716561808d300e241d1143547db51ab05aed8cb3e3c903686f0aa96548d6f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e52bb000117e5bb0e5b65836707f21157621533e8fd5674d4afb73e3129e7e2",
+				"dweb:/ipfs/QmfB5GdGQZRunDEDmqzJtp9ZVa7wpW6JwgeUDPSvbDPK9q"
+			]
+		},
+		"contracts/Lesson 3/StorageFactory.sol": {
+			"keccak256": "0x35a9e5c1e7663bd925202e0f80139504679802e7872d5abe9f42c2c7c318e561",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d2b421c031b9bda7b44a744919ad5f78a7aac73c09a08a45741245250e05bb6b",
+				"dweb:/ipfs/QmYj26h2eb28LiGgLBcoFXWmkS7tygZtHNoPjsbJ9QvgQT"
+			]
+		}
+	},
+	"version": 1
+}
